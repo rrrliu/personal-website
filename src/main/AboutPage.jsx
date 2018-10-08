@@ -4,11 +4,13 @@ export default class AboutPage extends react.Component {
   render() {
     return (
       <div className="about-container container">
+        <div className="jumbotron" id="header">
+          <h1>
+            I N T R O
+          </h1>
+        </div>
         <div className="row">
-          <div className="col-8">
-            <h1>
-              Introduction
-            </h1>
+          <div className="col-7">
             <br/>
             <p>
               Hey there!
@@ -23,8 +25,8 @@ export default class AboutPage extends react.Component {
               program.
             </p>
             <p>
-              As an engineer at heart, I really enjoyed making these projects &mdash; I hope you'll find them
-              interesting too!
+              As an engineer at heart, I really love seeing things build up from start to finish &mdash;
+              I hope you'll enjoy at these projects as much as I enjoyed making them.
             </p>
           </div>
           <div className="col-4">

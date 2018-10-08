@@ -7,7 +7,6 @@ body {
 .name {
   font-family: 'Raleway';
   font-size: 56px;
-  text-align: center;
   line-height: 100px;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -18,13 +17,21 @@ body {
 
 .subtitle {
   font-family: 'Raleway';
-  font-size: 24px;
+  font-size: 28px;
   color: #696969;
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 4s; /* Firefox < 16 */
       -ms-animation: fadein 4s; /* Internet Explorer */
        -o-animation: fadein 4s; /* Opera < 12.1 */
           animation: fadein 4s;
+}
+
+#header {
+  text-align: center;
+  border: 0px;
+  color: #bf9b30;
+  margin-bottom: 2%;
+  /* border: 5px solid black; */
 }
 
 .landing-container {
@@ -60,7 +67,6 @@ body {
 }
 
 .about-container {
-  margin-left: 20%;
   margin-top: 35%;
   position: relative;
   font-size: 18px;
@@ -69,23 +75,34 @@ body {
 
 .about-container h1 {
   font-size: 56px;
+  font-family: 'Raleway';
 }
 
 .projects-container {
-  margin-top: 35%;
+  margin-top: 15em;
   text-align: center;
 }
 
 .projects-container h1 {
   font-size: 64px;
+  font-family: 'Raleway';
 }
 
 .jumbotron {
-  margin-top: 10%;
+  margin-top: 5%;
+  background-color: transparent;
+  border: 2px solid #a8a8a8;
+  /* border-color: #bf9b30; */
+  /* border-radius: 2px; */
 }
 
 .jumbotron h1 {
   font-size: 56px;
+}
+
+.jumbotron p {
+  margin-top: 1.5%;
+  color: #696969;
 }
 
 .wrapper {

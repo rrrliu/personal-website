@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
 import './App.css';
-import Landing from './landing/LandingPage';
-import About from './about/AboutPage';
-import Projects from './projects/ProjectsPage';
-// import Contact from './contact/ContactPage';
+import Home from './main/Home';
+import CampUs from './other/CampUs';
+// import E3Scooter from './e3scooter/E3Scooter';
+// import Attendeaux from './attendeaux/Attendeaux';
+// import Treecursion from './other/Treecursion';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Landing />
-        <About />
-        <Projects />
-        {/* <Contact /> */}
+      <div className="App1">
+        <div className="App2">
+          <BrowserRouter>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/camp-us" component={CampUs} />
+              {/* <Route path="/treecursion" component={Treecursion} /> */}
+            </Switch>
+          </BrowserRouter>
+         </div>
       </div>
     );
   }

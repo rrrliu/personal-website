@@ -11,7 +11,7 @@ export default class LandingPage extends Component {
                     </h1>
                     {/* <br/> */}
                     <h2 className="subtitle">
-                        engineer // entrepreneur // educator
+                        engineer // explorer // educator
                     </h2>
                 </div>
             </div>

@@ -16,13 +16,13 @@ export default class AboutPage extends react.Component {
               Hey there!
             </p>
             <p>
-              My name is Richard and I love to build projects in my free time.
+              My name is Richard, and I love to build projects in my free time.
             </p>
             <p>
               I’m currently a student at UC Berkeley hoping to apply software to education,
-              fitness, and music. Currently, I'm pursuing a dual degree in computer science
-              and business administration under the Management, Entrepreneurship, and Technology
-              program.
+              fitness, and music. I also love exploring new fields and learning from my peers.
+              Currently, I'm pursuing a dual degree in computer science and business administration
+              under the Management, Entrepreneurship, and Technology program.
             </p>
             <p>
               As an engineer at heart, I really love seeing things build up from start to finish &mdash;

@@ -10,7 +10,7 @@ export default class Project extends Component {
                     <h3> {technologies} </h3>
                     <p> {description} </p>
                     <a href={link}>
-                        <img border="0" src={img_url} class="img-fluid" alt="Hmm, this doesn't seem to be working"/>
+                        <img border="0" src={img_url} className="img-fluid" alt="Hmm, this doesn't seem to be working"/>
                     </a>
                 </div>
             </div>

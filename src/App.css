@@ -1,29 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Cantarell|Lato|Open+Sans|Poiret+One|Quicksand|Raleway:200|Roboto');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Quicksand";
+}
+
+.silver {
+  color: #c0c0c0;
 }
 
 .name {
   font-family: 'Raleway';
   font-size: 56px;
   line-height: 100px;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
-          animation: fadein 2s;
+  color: #bf9b30;
 }
 
 .subtitle {
   font-family: 'Raleway';
   font-size: 28px;
   color: #696969;
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 4s; /* Firefox < 16 */
-      -ms-animation: fadein 4s; /* Internet Explorer */
-       -o-animation: fadein 4s; /* Opera < 12.1 */
-          animation: fadein 4s;
 }
 
 #header {

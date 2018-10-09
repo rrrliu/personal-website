@@ -4,13 +4,13 @@ export default class AboutPage extends react.Component {
   render() {
     return (
       <div className="about-container container">
-        <div className="jumbotron" id="header">
+        <div className="jumbotron" id="header" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">
           <h1>
             I N T R O
           </h1>
         </div>
         <div className="row">
-          <div className="col-7">
+          <div className="col-7" data-aos="fade-right" data-aos-duration="3000">
             <br/>
             <p>
               Hey there!
@@ -29,7 +29,7 @@ export default class AboutPage extends react.Component {
               I hope you'll enjoy at these projects as much as I enjoyed making them.
             </p>
           </div>
-          <div className="col-4">
+          <div className="col-4" data-aos="fade-left" data-aos-duration="3000">
             <img src={require('./intro-pic.jpg')} className="img-fluid round" alt="da fuq"/>
           </div>
         </div>

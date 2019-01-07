@@ -2,7 +2,7 @@
 
 ### TODO:
 #### Site
-1. Get unique domain
+~~1. Get unique domain~~
 2. Fix animations
 #### Content
 1. Update experience

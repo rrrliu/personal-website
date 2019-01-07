@@ -2,9 +2,9 @@
 
 ### TODO:
 #### Site
-~~1. Get unique domain~~
-2. Fix animations
+* ~~Get unique domain~~
+* Fix animations
 #### Content
-1. Update experience
-2. Add JS doc
-3. Update projects
+* Update experience
+* Add JS doc
+* Update projects

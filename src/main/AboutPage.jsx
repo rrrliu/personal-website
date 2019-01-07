@@ -30,7 +30,7 @@ export default class AboutPage extends react.Component {
             </p>
           </div>
           <div className="col-4" data-aos="fade-left" data-aos-duration="3000">
-            <img src={require('./intro-pic.jpg')} className="img-fluid round" alt="da fuq"/>
+            <img src={require('./intro-pic.jpeg')} className="img-fluid round" alt="da fuq"/>
           </div>
         </div>
       </div>

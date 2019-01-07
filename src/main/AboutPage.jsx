@@ -1,4 +1,7 @@
 import React, * as react from 'react';
+import linkedin from './icons/linkedin-icon.png';
+import github from './icons/github-icon.png';
+import spotify from './icons/spotify-icon.png';
 
 export default class AboutPage extends react.Component {
   render() {
@@ -16,48 +19,45 @@ export default class AboutPage extends react.Component {
               Hey there!
             </p>
             <p>
-              My name is Richard, and I love to build projects in my free time.
+              My name is Richard, and I love to build projects.
             </p>
             <p>
-              I’m currently a student at UC Berkeley hoping to apply software to education,
-              fitness, and music. I also love exploring new fields and learning from my peers.
-              Currently, I'm pursuing a dual degree in computer science and business administration
-              under the Management, Entrepreneurship, and Technology program.
+              I’m currently a student at UC Berkeley pursuing a dual degree in computer science and business
+              under the <a href="http://met.berkeley.edu/">Management, Entrepreneurship, and Technology</a> program.
+              In my free time, I enjoy cooking, playing music, and attending concerts.
             </p>
             <p>
               As an engineer at heart, I really love seeing things build up from start to finish &mdash;
-              I hope you'll enjoy at these projects as much as I enjoyed making them.
+              I hope you'll enjoy browsing through these projects as much as I enjoyed making them.
             </p>
           </div>
           <div className="col-4" data-aos="fade-left" data-aos-duration="3000">
             <img src={require('./intro-pic.jpeg')} className="img-fluid round" alt="da fuq"/>
           </div>
         </div>
+      
+        <div class="contact container" data-aos="fade-up" data-aos-duration="3000">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col">
+              <a href="https://www.linkedin.com/in/richard-y-liu/">
+                <img className="favicon" src={linkedin} alt="linkedin logo"/>
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://github.com/rrrliu">
+                <img className="favicon" src={github} alt="github logo"/>
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://open.spotify.com/user/richardliuwa?si=kKvRkSI-QS2bZRe16Hfpmg">
+                <img className="favicon" src={spotify} alt="spotify logo"/>
+              </a>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
       </div>
-      // <div class="container">
-      //   <div class="row">
-      //     <div class="col">
-      //       1 of 3
-      //     </div>
-      //     <div class="col-6">
-      //       2 of 3 (wider)
-      //     </div>
-      //     <div class="col">
-      //       3 of 3
-      //     </div>
-      //   </div>
-      //   <div class="row">
-      //     <div class="col">
-      //       1 of 3
-      //     </div>
-      //     <div class="col-5">
-      //       2 of 3 (wider)
-      //     </div>
-      //     <div class="col">
-      //       3 of 3
-      //     </div>
-      //   </div>
-      // </div>
     );
   }
 }

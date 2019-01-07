@@ -68,7 +68,7 @@ body {
 .about-container {
   margin-top: 35%;
   position: relative;
-  font-size: 18px;
+  font-size: 20px;
   color: #696969;
 }
 
@@ -159,4 +159,20 @@ body {
 
 .camp-us {
   background-image: url(./main/camp-us-thumbnail.png);
+}
+
+a {
+  font-weight: 700;
+  color: #696969;
+}
+
+.contact {
+  margin-top: 12%;
+}
+
+img.favicon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 48px;
 }

@@ -2,9 +2,11 @@
 
 ### TODO:
 #### Site
-* ~~Get unique domain
-* ~~Fix animations
+* ~~Get unique domain~~
+* ~~Fix animations~~
+* ~~Mobile friendliness~~
 #### Content
-* Update experience
 * Add JS doc
+* Add music
+* Update experience (?)
 * ~~Update projects

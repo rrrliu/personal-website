@@ -24,7 +24,7 @@ export default class AboutPage extends react.Component {
             <p>
               I’m currently a student at UC Berkeley pursuing a dual degree in computer science and business
               under the <a href="http://met.berkeley.edu/">Management, Entrepreneurship, and Technology</a> program.
-              In my free time, I enjoy cooking, playing music, and attending concerts.
+              In my free time, I enjoy cooking, swimming, and producing music.
             </p>
             <p>
               As an engineer at heart, I really love seeing things build up from start to finish &mdash;
@@ -36,25 +36,25 @@ export default class AboutPage extends react.Component {
           </div>
         </div>
       
-        <div class="contact container" data-aos="fade-up" data-aos-duration="3000">
-          <div class="row">
-            <div class="col"></div>
-            <div class="col">
+        <div className="contact container" data-aos="fade-up" data-aos-duration="3000">
+          <div className="row">
+            <div className="col"></div>
+            <div className="col">
               <a href="https://www.linkedin.com/in/richard-y-liu/">
                 <img className="favicon" src={linkedin} alt="linkedin logo"/>
               </a>
             </div>
-            <div class="col">
+            <div className="col">
               <a href="https://github.com/rrrliu">
                 <img className="favicon" src={github} alt="github logo"/>
               </a>
             </div>
-            <div class="col">
-              <a href="https://open.spotify.com/user/richardliuwa?si=kKvRkSI-QS2bZRe16Hfpmg">
+            <div className="col">
+              <a href="https://open.spotify.com/user/richardliuwa">
                 <img className="favicon" src={spotify} alt="spotify logo"/>
               </a>
             </div>
-            <div class="col"></div>
+            <div className="col"></div>
           </div>
         </div>
       </div>

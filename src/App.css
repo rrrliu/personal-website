@@ -14,14 +14,16 @@ body {
 
 .name {
   font-family: 'Raleway';
-  font-size: 56px;
+  /* font-size: 56px; */
+  font-size: 3.3vmax;
   line-height: 100px;
   color: #bf9b30;
 }
 
 .subtitle {
   font-family: 'Raleway';
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 1.6vmax;
   color: #696969;
 }
 
@@ -47,7 +49,7 @@ body {
   content: '';
   display: block;
   height: 100vh;
-  width: 20px;
+  width: 1vw;
   position: fixed;
   top: 0;
   left: 0;
@@ -58,7 +60,7 @@ body {
   content: '';
   display: block;
   height: 100vh;
-  width: 20px;
+  width: 1vw;
   position: fixed;
   top: 0;
   right: 0;
@@ -68,12 +70,12 @@ body {
 .about-container {
   margin-top: 35%;
   position: relative;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.2vmax;
   color: #696969;
 }
 
 .about-container h1 {
-  font-size: 56px;
   font-family: 'Raleway';
 }
 
@@ -96,7 +98,7 @@ body {
 }
 
 .jumbotron h1 {
-  font-size: 56px;
+  font-size: 3.2vmax;
 }
 
 .jumbotron p {
@@ -110,7 +112,9 @@ body {
 
 .prof_pic {
   border-radius: 50%;
-  width: 500px;
+  width: 30vmax;
+  max-height: 100%;
+  /* width: 500px; */
 }
 
 @keyframes fadein {
